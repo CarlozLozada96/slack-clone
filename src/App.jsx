@@ -16,7 +16,7 @@ export const apiURL = "http://206.189.91.54/api/v1";
 export default function App() {
   return (
     <AuthProvider>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/slack-clone">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Registration />} />
